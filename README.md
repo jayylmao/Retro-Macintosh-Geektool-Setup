@@ -1,5 +1,6 @@
 # Retro-Macintosh-Geektool-Setup
 <img src="screenshot.png" />
+<img src="screenshot3.png" />
 <p> A simple Geektool setup based on the original Macintosh's UI. The wallpaper in the screenshot is Apple's "Dusty Rose" wallpaper which you can find in the "Colors" folder of the desktop & screen saver system preferences. </p>
 
 <p> The widget frames are just images that were made in Affinity Designer while using images of the Macintosh's UI as reference. </p>

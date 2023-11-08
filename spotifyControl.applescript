@@ -5,7 +5,7 @@ tell application "Spotify"
 	-- if spotify is running, set the variable c to the current track
 	if it is running then
 		set c to the current track
-		set a to the album
+		set a to album of current track
 		
 		-- if spotify is playing music, set the variable albumArt to the artwork of the current track and return that value as text
 		if player state is playing or player state is paused then
@@ -16,9 +16,10 @@ tell application "Spotify"
 					set the image url to albumUrl
 				end tell
 			end tell
-			return name of c & " 
-" & a & "
-" & artist of c as text
+			return "Song: " & ((name of c & " 
+" & "Album: " & album of c as text) & "
+" & "Artist: " & artist of c as text) & "
+"
 			-- otherwise, return "not playing"
 		else
 			return "
